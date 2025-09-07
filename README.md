@@ -1,86 +1,66 @@
-🍹 Mojito – Cocktails Website
+# 🍹 Mojito Cocktails – Smooth & Modern Bar Experience
 
-A modern and interactive cocktails website built using React, GSAP animations, and smooth scrolling with @studio-freight/react-lenis.
-Explore a wide range of refreshing cocktails with smooth animations and a sleek, elegant design.
+Welcome to **Mojito Cocktails**, a modern, visually captivating website for cocktail lovers.  
+This project brings the vibe of a real bar to the web with **smooth animations**, **interactive scrolling**, and **beautifully designed sections**.
 
-🚀 Live Demo
+🔗 **Live Demo:** [https://cocktailsprop.vercel.app](https://cocktails-prop.vercel.app/)
 
-🔗 View Live
+---
 
-✨ Features
+## 💡 About
 
-🍸 Dynamic Cocktail Showcase – Browse through premium cocktails.
+This website is designed to create a premium cocktail bar experience:
 
-🎥 Background Video Support – Engaging animated background hero section.
+- 🎞️ **Video Background** – Set the mood with a stunning hero video.
+- 🍸 **Cocktail Showcase** – Highlight signature drinks with style.
+- ✨ **Smooth Animations** – GSAP-powered transitions for a premium feel.
+- 📱 **Fully Responsive** – Seamlessly adapts to desktop, tablet, and mobile.
+- 🚀 **Modern Tech Stack** – Fast and scalable with React and Vite.
 
-🎨 Smooth Animations – GSAP powered animations for a seamless experience.
+The goal of this project is to merge **design, performance, and interactivity** into one flawless user experience.
 
-🖱️ Smooth Scrolling – Powered by React Lenis.
+---
 
-📱 Fully Responsive – Works perfectly on mobile, tablet, and desktop.
+## 🛠 Tech Stack & Tools
 
-⚡ Optimized Performance – Lightweight and fast loading.
+| Technology      | Purpose |
+|----------------|---------|
+| **React.js**    | UI Development |
+| **Vite**        | Lightning-fast build tool |
+| **Tailwind CSS**| Utility-first styling |
+| **GSAP**        | Smooth animations |
+| **React Lenis** | Smooth scrolling |
+| **FFmpeg**      | Video optimization |
+| **VS Code**     | Code editor |
+| **GitHub**      | Version control |
+| **Vercel**      | Hosting & deployment |
 
-🛠️ Tech Stack
+---
 
-Frontend: React, JSX, Tailwind CSS
+## ✨ Features
 
-Animations: GSAP, SplitText, ScrollTrigger
+- 🎬 **Hero Section with Video Background**  
+  Sets the mood for an immersive cocktail experience.
 
-Smooth Scrolling: @studio-freight/react-lenis
+- 🍹 **Cocktail Menu**  
+  Beautifully displayed premium cocktails with descriptions.
 
-Deployment: Vercel / Netlify
+- 🖱️ **Smooth Scroll & Parallax Effects**  
+  Powered by **React Lenis** for a luxurious feel.
 
-📂 Project Structure
-mojito/
-│
-├── public/            # Static files (images, videos, icons)
-│   ├── images/
-│   └── videos/
-│
-├── src/
-│   ├── components/    # Navbar, Hero, etc.
-│   ├── sections/      # Structured sections like About, Services
-│   ├── App.jsx        # Main App file
-│   └── index.js       # Entry point
-│
-└── package.json
+- 📱 **Fully Responsive Layout**  
+  Optimized for desktop, tablet, and mobile devices.
 
-⚙️ Installation & Setup
+- 🌟 **Modern Design**  
+  Minimal, clean, and visually stunning.
 
-Clone the repository:
+---
 
-git clone https://github.com/yourusername/mojito.git
+## 📥 How to Clone & Run Locally
 
+Follow these steps to set up the project on your machine:
 
-Navigate to the project folder:
-
-cd mojito
-
-
-Install dependencies:
-
-npm install
-
-
-Run the development server:
-
-npm run dev
-
-
-Build for production:
-
-npm run build
-
-🎥 FFmpeg Video Optimization (Optional)
-
-To optimize your video for the background hero section:
-
-ffmpeg -i input.mp4 -vf scale=960:-1 -movflags faststart -c:v libx264 -crf 20 -g 1 -pix_fmt yuv420p output.mp4
-
-📧 Contact
-
-For any inquiries or suggestions:
-Your Name – krishnasharmau4@gmail.com
-
-GitHub: github.com/fearDluffy
+### 1. Clone the repository
+```bash
+git clone https://github.com/feardluffy/cocktailsProp.git
+cd cocktailsProp
